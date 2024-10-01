@@ -15,8 +15,8 @@ public class CtoFConverterin {
                 validTemp = true;
                 temp = scan.nextDouble();
                 tempInF =  (temp*9/5) + 32;
-                System.out.printf("%-10s%.2f", "Degrees C ", " " + temp);
-                System.out.printf("\n%-10fs.2f", "Degrees F ", " " + tempInF); // fix these two printf's tmrw 10/1
+                System.out.printf("%10s %7.2f", "Degrees C", temp);
+                System.out.printf("\n%10s %7.2f", "Degrees F", tempInF);
 
             }
             scan.nextLine();
